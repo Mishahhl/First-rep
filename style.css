@@ -1,0 +1,139 @@
+style>
+        *{ margin:0; }
+        body{
+            height:700px;
+            width: 1850px;
+            background-repeat: none;
+            background-size:cover;
+            background-attachment:fixed;
+            background-color:#ffffff;
+            margin:0; 
+        }
+        header {
+            background-color: rgb(255, 255, 255);
+            /* padding: 15px 100px 0px 40px; */
+            height: 100px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header > nav{
+        flex: 2;
+        }
+        .a {
+            font-size: 80px;
+            margin:0px 100px 0px 100px;
+        }
+        .q {
+            margin:0px 100px 0px 100px;
+            font-size: 50px;
+        }
+        .order{
+            display: inline-block;
+            padding: 5px 5px 5px 0px;
+            background-color: rgb(210, 105, 30);
+            text-decoration: none;
+            border-radius: 10px;
+            color: #813838;
+            font-size: 15px;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: rgb(255, 255, 255);
+            box-shadow: 2px 3px 4px #000;
+            text-align:center;
+            margin: 100px 300px 100px 100px;
+        }
+        .order:hover{
+            background-color: rgba(210, 105, 30,0.7);
+            box-shadow: none;
+            text-align:center;
+            margin: 100px 300px 100px 100px;
+        }
+        .qwerty1 {
+            background: url(images/de.jpg);
+            height: 783px;
+            vertical-align: middle;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            position: relative; /*Теперь объект будет позиционироваться относительно этой карточки*/
+            border-radius: 20px;
+        }
+        .qwerty2 {
+            background:url("images/Group\ 2644.png");
+            padding: 0px 0px 0px 0px;
+            margin: 100px 100px 100px 100px;
+            width: 1600px;
+            height: 548px;
+            vertical-align: middle; 
+            background-repeat:no-repeat; 
+        }
+        .qwerty3 {
+            height: 1088px;
+            width: 1653px;
+            background:url("images/Group\ 2632\ \(1\).png");
+            background-repeat:no-repeat;
+        }
+        .fotter2 {
+            background:url("images/Why\ us.png");
+            width: 1600px;
+            height: 1079px;
+            background-size: cover; /*Растянуть фон*/
+            
+        }
+        .fotter3 {
+            background:url("images/Footer.png");
+            width: 1600px;
+            height: 188px;
+            background-size: cover; /*Растянуть фон*/
+        }
+        img {
+            object-fit: contain; /*Помещать изображения в блок*/
+            width: 100%; /*Лучше сразу задать всем изображением макс.значения, а потом подгонять*/
+        }
+        .div1 {
+            position: absolute;
+            top: 10%;
+            right: 5%;
+        }
+        .number {
+           margin: 80px 0px 0px 900px ;
+           font-size: 25px;
+        }
+        .div2 {
+            position: absolute;
+            top: 10%;
+            left: 15%;
+        }
+        .div3 {
+            padding-left: 50px;
+            flex: 3;
+        }
+        .span1 {
+            position: absolute;
+            top: 60%;
+            left: 0%;
+        }
+        /*Медиа-запрос для ширины 320px*/
+        @media (min-width: 320px) { 
+        /*Стили для минимальной ширины в 320px*/
+        }
+        /*Медиа-запрос для ширины 320px - мобильные устройства*/
+        @media (min-width: 320px) { 
+            /*Стили для минимальной ширины в 320px*/
+        }
+
+        /*Медиа-запрос для ширины 768px - планшеты*/
+        @media (min-width: 768px) { 
+            /*Стили для минимальной ширины в 768px*/
+        }
+
+        /*Медиа-запрос для ширины 1200px - десктопы*/
+        @media (min-width: 1200px) { 
+            /*Стили для минимальной ширины в 1200px*/
+        }
+
+        /*Медиа-запрос для ширины 1400px - большие экраны*/
+        @media (min-width: 1400px) { 
+            /*Стили для минимальной ширины в 1400px*/
+        }
+        
